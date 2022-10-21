@@ -66,10 +66,11 @@ function checkWin(){
 if((win1.innerHTML=="X")||(win2.innerHTML=="X")
 ||(win3.innerHTML=="X")||(win4.innerHTML=="X")||
 (win5.innerHTML=="X")||(win6.innerHTML=="X")||
-(win7.innerHTML=="X")||(win8.innerHTML=="X")){
+(win7.innerHTML=="X")||(win8.innerHTML=="X")
+){
 
     winner.classList.add("you-won");
-    winner.innerHTML = "X Won!";
+    winner.innerHTML = "Congratulations! X is the Winner!";
 
 }else if
 
@@ -77,10 +78,11 @@ if((win1.innerHTML=="X")||(win2.innerHTML=="X")
 ((win1.innerHTML=="O")||(win2.innerHTML=="O")
 ||(win3.innerHTML=="O")||(win4.innerHTML=="O")||
 (win5.innerHTML=="O")||(win6.innerHTML=="O")||
-(win7.innerHTML=="O")||(win8.innerHTML=="X")){
+(win7.innerHTML=="O")||(win8.innerHTML=="X"))
+{
 
     winner.classList.add("you-won");
-    winner.innerHTML = "O Won!";
+    winner.innerHTML = "Congratulations! O is the Winner!";
 
 }
 
